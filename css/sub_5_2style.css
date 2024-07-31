@@ -91,6 +91,17 @@
         transform: translateX(0);
     }
 }
+/* 둥둥뜬다 */
+@keyframes ani {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(0, 50px);
+    }
+}
+
 
   
 html,body,div, p, ul,ol,li,a,h1,h2,h3,h4,h5,input,textarea,select,option,strong, em, dl,dd,table,th,td,tr,img,video{
