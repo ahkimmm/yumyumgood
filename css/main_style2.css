@@ -90,6 +90,9 @@ a{
     text-decoration: none;
     color: inherit;
 }
+*{
+    cursor: url(../images/cursor3.png) 4 5, url(../images/cursor3.png), url(../images/cursor3.png) 5 5, auto;
+}
 /* html{
     font-size:;
 } */

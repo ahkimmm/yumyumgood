@@ -104,6 +104,11 @@ a{
     text-decoration: none;
     color: inherit;
 }
+
+*{
+    cursor: url(../images/cursor3.png) 4 5, url(../images/cursor3.png), url(../images/cursor3.png) 5 5, auto;
+}
+
 /* html{
     font-size:;
 } */
@@ -417,6 +422,7 @@ img:not([draggable]), embed, object, video {
 #best_swiper{
     width: 1320px;
     margin: 30px auto;
+    position: relative;
 }
 #best_swiper .swiper-container {
    width: 1065px;
@@ -541,6 +547,15 @@ img:not([draggable]), embed, object, video {
     pointer-events: none
 }
 
+#blank{
+    position: relative;
+    top: -35px;
+    left: 0;
+    z-index: 9;
+    height: 10px;
+}
+
+
 
 
 /* tab_section */
@@ -548,7 +563,7 @@ img:not([draggable]), embed, object, video {
 #section {
 	width: 100%;
 
-	padding: 20px 0;
+	padding: 0px 0;
 	text-align: center;
 
 }

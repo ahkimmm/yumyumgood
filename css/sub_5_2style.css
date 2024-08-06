@@ -115,6 +115,9 @@ a{
     text-decoration: none;
     color: inherit;
 }
+*{
+    cursor: url(../images/cursor3.png) 4 5, url(../images/cursor3.png), url(../images/cursor3.png) 5 5, auto;
+}
 /* html{
     font-size:;
 } */
@@ -370,6 +373,7 @@ transition: all 0.3s linear;
     background: url(../images/sub_5_img/sub_5_banner2.jpg) no-repeat center top;
     height: 1033px;
     overflow: hidden;
+    position: relative;
 }
 
 .inner_banner{
@@ -396,6 +400,16 @@ transition: all 0.3s linear;
 
 /* banner e */
 /* save  */
+
+#blank2{
+    position: absolute;
+    top: 950px;
+    left: 0;
+    z-index: 99;
+}
+
+
+
 
 /* btn_section */
 #btn_section {
