@@ -337,7 +337,34 @@ transition: all 0.3s linear;
     vertical-align: 1px; 
 }
 
+/* banner s */
+#banner{
+    background: url(../images/sub_1_img/banner/main_banner.jpg) no-repeat center top;
+    height: 1033px;
+    overflow: hidden;
+}
+.inner_banner{
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+}
+.banner_circle{
+    position: absolute;
+    top: 600px;
+    right: -100px;
+    z-index: 99;
+    animation:  text_shape_move 10s linear infinite;
+}
+
+.inner_banner p{
+    font-size: 80px;
+    padding-top:300px;
+    line-height: 80px;
+    color: #fff;
+    font-family: yg-jalnan;
+}
 /* banner e */
+
 
 /* page btn */
 /* page_button */
