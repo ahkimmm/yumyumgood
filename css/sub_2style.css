@@ -104,7 +104,7 @@ a{
 body{
     font-family: 'NanumBarunGothic';
     line-height: 24px;
-    font-size: 13px;
+    font-size: 14px;
     color: #343434;
     background-color:#FFF8EE ;
      /* Prevent font scaling in landscape */
@@ -132,7 +132,7 @@ body{
     bottom: 30px;
     z-index: 1111;
 }
-/* botton */
+/* button */
 
 .wrapper {
     position: absolute;
@@ -214,14 +214,6 @@ body{
 .menu> .blue> a{
     transition: all 0.3s linear;
 }
-
-.menu> .blue> a:hover{
-    background: url(../images/header/menu_clover.svg)no-repeat top 0 right 6px;
-opacity: 1;
-color: #fff;
-transition: all 0.3s linear;
-}
-
 /* on */
 .menu> .blue> a:hover, .menu> .blue> a.on{
     background: url(../images/header/menu_clover.svg)no-repeat top 0 right 6px;
@@ -229,7 +221,6 @@ opacity: 1;
 color: #fff;
 transition: all 0.3s linear;
 }
-
 .menu> .pink> a:hover{
     background: url(../images/header/menu_clover2.svg)no-repeat top 0 right 2px;
 opacity: 1;
@@ -281,13 +272,13 @@ transition: all 0.3s linear;
     transition: all 0.2s linear;
     font-weight: bold;
 }
+
 /* on */
-/* .inner_submenu .brand_menu .brand_menu2 a.on{
+/* .inner_submenu .brand_menu .brand_menu1 a.on{
     color: rgb(14, 71, 177);
     transition: all 0.2s linear;
     font-weight: bold;
-}
- */
+} */
 
 .inner_submenu .shop_menu li a:hover{
     color:  rgb(255, 122, 178);
@@ -346,36 +337,9 @@ transition: all 0.3s linear;
     vertical-align: 1px; 
 }
 
-/* header_e */
-
-/* banner s */
-#banner{
-    background: url(../images/sub_1_img/banner/main_banner.jpg) no-repeat center top;
-    height: 1033px;
-    overflow: hidden;
-}
-.inner_banner{
-    width: 1320px;
-    margin: 0 auto;
-    position: relative;
-}
-.banner_circle{
-    position: absolute;
-    top: 600px;
-    right: -100px;
-    z-index: 99;
-    animation:  text_shape_move 10s linear infinite;
-}
-
-.inner_banner p{
-    font-size: 80px;
-    padding-top:300px;
-    line-height: 80px;
-    color: #fff;
-    font-family: yg-jalnan;
-}
 /* banner e */
 
+/* page btn */
 /* page_button */
 .page_btn{
     display: flex;
@@ -430,43 +394,6 @@ transition: all 0.3s linear;
     animation:  text_shape_move 10s linear infinite;
 }
 /* banner_e */
-/* page_button */
-.page_btn{
-    display: flex;
-    justify-content: center;
-}
-.page_btn li{
-    padding-top: 100px;
-    line-height: 18px;
-   
-}
-.page_btn li a{
-    display: block;
-    margin: 0 30px;
-    width: 175px;
-    height: 60px;
-    border-radius: 30px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    font-size: 18px;
-    
-}
-.brand_btn {
-    background-color: #fff;
-    color: #B2B2B2;
-    border: #b4b4b4 3px solid;
-    transition: all 0.1s linear;
-}
-.brand_btn:hover {
-    background-color: #81D3FA;
-    color: #fff;
-    border: #1C95FF 4px solid;
-    transition: all 0.1s linear;
-}
-/* page_button e*/
 
 
 /* section_1 s */
